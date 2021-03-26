@@ -10,7 +10,7 @@ public class PalindromeString {
         in.close();
         System.out.println("The output is -> " + isPalindrome(strVal));
     }
-//wotkjhdkjfaskdjfaslkjdghlksajdgh
+
     private static boolean isPalindrome(String str) {
         int i = 0, j = str.length() - 1;
         while (i < j) {
@@ -23,5 +23,4 @@ public class PalindromeString {
         return false;
     }
 
-    // another command
 }
